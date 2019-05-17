@@ -13,19 +13,46 @@
   <!-- PACE Progress Bar START -->
 
   
-  <title>Blog</title>
+  <title>machinelearningnotes | Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   
   
   
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="第11周-过拟合问题会议讨论内容：1.介绍激活函数添加非线性成分进去，解决非线性问题（例如多元分类）Sigmoid：梯度饱和时学习进度为0Swish函数：以sigmoid为基地的修正对层数比较多的模型比较好Tanh函数：相对sigmoid收敛更快Relu函数：变种relu函数，softplus函数relu稀疏性表现很可靠 2.讲解梯度消失，梯度爆炸介绍sigmoid函数：目前层数比较多用的都是re">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MachineLearningNotes">
+<meta property="og:url" content="http://yoursite.com/2019/05/18/MachineLearningNotes/index.html">
 <meta property="og:site_name" content="Blog">
+<meta property="og:description" content="第11周-过拟合问题会议讨论内容：1.介绍激活函数添加非线性成分进去，解决非线性问题（例如多元分类）Sigmoid：梯度饱和时学习进度为0Swish函数：以sigmoid为基地的修正对层数比较多的模型比较好Tanh函数：相对sigmoid收敛更快Relu函数：变种relu函数，softplus函数relu稀疏性表现很可靠 2.讲解梯度消失，梯度爆炸介绍sigmoid函数：目前层数比较多用的都是re">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/bc9fe3ab.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/31031f8b.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/c7b475a8.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/c95639d2.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/9aa52dee.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/614b201c.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/6c533ebd.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/4a5a7aae.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/ffe97136.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/c112c635.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/06d68a5f.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/e5f1dd20.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/e08a1450.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/cd5b3c20.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/571bf7ba.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/c05fcf1d.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/6fc40919.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/fa5bdf21.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/493c495c.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/39c25f99.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/436f3f91.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/9dd12e10.png">
+<meta property="og:updated_time" content="2019-05-17T20:35:41.829Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Blog">
+<meta name="twitter:title" content="MachineLearningNotes">
+<meta name="twitter:description" content="第11周-过拟合问题会议讨论内容：1.介绍激活函数添加非线性成分进去，解决非线性问题（例如多元分类）Sigmoid：梯度饱和时学习进度为0Swish函数：以sigmoid为基地的修正对层数比较多的模型比较好Tanh函数：相对sigmoid收敛更快Relu函数：变种relu函数，softplus函数relu稀疏性表现很可靠 2.讲解梯度消失，梯度爆炸介绍sigmoid函数：目前层数比较多用的都是re">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/funjin/funjin.github.io/master/attachments/bc9fe3ab.png">
   
     <link rel="alternate" href="/atom.xml" title="Blog" type="application/atom+xml">
   
@@ -85,7 +112,7 @@ var themeMenus = {};
 </script>
 
 
-  <body>
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
 
 
   <header id="allheader" class="site-header" role="banner">
@@ -163,9 +190,7 @@ var themeMenus = {};
             
       <div id="content" class="outer">
         
-          <section id="main">
-  
-    <article id="post-MachineLearningNotes" class="article article-type-post" itemscope itemprop="blogPost">
+          <section id="main" style="float:none;"><article id="post-MachineLearningNotes" style="width: 66%; float:left;" class="article article-type-post" itemscope itemprop="blogPost">
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
     
@@ -173,7 +198,7 @@ var themeMenus = {};
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2019/05/18/MachineLearningNotes/">MachineLearningNotes</a>
+      MachineLearningNotes
     </h1>
   
 
@@ -186,6 +211,10 @@ var themeMenus = {};
 	</a>
 
       
+	<span id="busuanzi_container_page_pv">
+	  本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+	</span>
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
@@ -312,236 +341,74 @@ var themeMenus = {};
       
       
       
-            
-      
-    </footer>
-  </div>
-  
-</article>
+        <div id="donation_div"></div>
 
-<!-- Table of Contents -->
-
-    
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2019/05/18/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      
-	Posted on <a href="/2019/05/18/hello-world/" class="article-date">
-	  <time datetime="2019-05-17T17:27:32.954Z" itemprop="datePublished">五月 18, 2019</time>
-	</a>
-
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-      
-      
-            
-      
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-    
-
-  
-
-
-</section>
-          <aside id="sidebar">
-  
-    <div class="widget-wrap" style="margin: 20px 0;">
-	<div id="search-form-wrap">
-
-    <form class="search-form">
-        <label style="width: 75%;">
-            <span class="screen-reader-text">Search for:</span>
-            <input type="search" class="search-field" style="height: 42px;" placeholder=" 搜索…" value name="s" title="Search for:">
-        </label>
-        <input type="submit" class="search-form-submit" value="搜索">
-    </form>
-    <div class="ins-search">
-    <div class="ins-search-mask"></div>
-    <div class="ins-search-container">
-        <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="请输入关键词...">
-            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
+<script src="/js/vdonate.js"></script>
 <script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: '文章',
-            PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
-            UNTITLED: '(无标题)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
+var a = new Donate({
+  title: '如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作!', // 可选参数，打赏标题
+  btnText: '打赏支持', // 可选参数，打赏按钮文字
+  el: document.getElementById('donation_div'),
+  wechatImage: 'https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/WeChanQR.png',
+  alipayImage: 'https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/AliPayQR.jpg'
+});
 </script>
-<script src="/js/insight.js"></script>
-
-</div>
-</div>
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">联系我们</h3>
-    <div class="widget widget_athemes_social_icons">
-
-    	<ul class="clearfix widget-social-icons">   
-    	
-          
-     			  <li><a href="https://github.com/funjin" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href="http://www.yoursite.com" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href title="Google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-     			  <li><a href title="Flickr"><i class="fa fa-flickr" aria-hidden="true"></i></a></li> 
-          
-   		
-          
-            <li><a href="mailto:kawasaki3jung@gmail.com?subject=请联系我&body=我能帮你什么" title="email"><i class="fa fa-envelope" aria-hidden="true"></i></a></li> 
-          
-   		
-   		</ul>
-
-
-   		<!--
-   		<ul class="clearfix widget-social-icons">   		
-   		<li class="widget-si-twitter"><a href="http://twitter.com" title="Twitter"><i class="ico-twitter"></i></a></li> 
-		<li class="widget-si-facebook"><a href="http://facebook.com" title="Facebook"><i class="ico-facebook"></i></a></li>
-			<li class="widget-si-gplus"><a href="http://plus.google.com" title="Google+"><i class="ico-gplus"></i></a></li>
-			<li class="widget-si-pinterest"><a href="http://pinterest.com" title="Pinterest"><i class="ico-pinterest"></i></a></li>
-			<li class="widget-si-flickr"><a href="http://flickr.com" title="Flickr"><i class="ico-flickr"></i></a></li>
-			<li class="widget-si-instagram"><a href="http://instagram.com" title="Instagram"><i class="ico-instagram"></i></a></li>
-		</ul> -->
-
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget_athemes_tabs">
-    <ul id="widget-tab" class="clearfix widget-tab-nav">
-      <li class="active"><a>最新文章</a></li>
-    </ul>
-    <div class="widget">
-      <ul>
+      
+            
+      
         
-          <li class="clearfix">
+	<div id="comment">
+	
+	<!-- 多说评论框 start -->
+	 <div class="ds-thread" data-thread-key="/2019/05/18/MachineLearningNotes/" data-title="MachineLearningNotes" data-url="http://yoursite.com/2019/05/18/MachineLearningNotes/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"iTimeTraveler"};
+	  (function() {
+	    var ds = document.createElement('script');
+	    ds.type = 'text/javascript';ds.async = true;
+	    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	    ds.charset = 'UTF-8';
+	    (document.getElementsByTagName('head')[0] 
+	     || document.getElementsByTagName('body')[0]).appendChild(ds);
+	  })();
+	  </script>
+	<!-- 多说公共JS代码 end -->
+	
+	</div>
+	<link rel="stylesheet" href="/css/comment-ds.css">
 
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
 
-              <h6 style="margin: 0;"><a href="/2019/05/18/MachineLearningNotes/">MachineLearningNotes</a></h6>
-              <span>五月 18, 2019</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2019/05/18/hello-world/">Hello World</a></h6>
-              <span>五月 18, 2019</span>
-            </div>
-
-          </li>
-        
-      </ul>
-    </div>
+      
+    </footer>
   </div>
-
   
     
+<nav id="article-nav">
+  
+  
+    <a href="/2019/05/18/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
 
   
-    
+</article>
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
+<!-- Table of Contents -->
 
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">五月 2019</a><span class="archive-list-count">2</span></li></ul>
+  <aside id="sidebar">
+    <div id="toc" class="toc-article" style="overflow-y: scroll; max-width: 28%;">
+    <strong class="toc-title">文章目录</strong>
+    
+      <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#第11周-过拟合问题"><span class="nav-number">1.</span> <span class="nav-text">第11周-过拟合问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#会议讨论内容："><span class="nav-number">1.1.</span> <span class="nav-text">会议讨论内容：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-介绍激活函数"><span class="nav-number">1.1.1.</span> <span class="nav-text">1.介绍激活函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-讲解梯度消失，梯度爆炸"><span class="nav-number">1.1.2.</span> <span class="nav-text">2.讲解梯度消失，梯度爆炸</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-下个阶段的学习"><span class="nav-number">1.1.3.</span> <span class="nav-text">3.下个阶段的学习</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#过拟合带来的问题：繁华能力很差，仅限于在训练样本中效果很好，在对其他数据集（训练集之外）时效果很差，很多神经网络中调参都是为了解决过拟合问题"><span class="nav-number">1.2.</span> <span class="nav-text">过拟合带来的问题：繁华能力很差，仅限于在训练样本中效果很好，在对其他数据集（训练集之外）时效果很差，很多神经网络中调参都是为了解决过拟合问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#过拟合解决方案：："><span class="nav-number">1.3.</span> <span class="nav-text">过拟合解决方案：：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一、增加数据量"><span class="nav-number">1.4.</span> <span class="nav-text">一、增加数据量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、加正则项"><span class="nav-number">1.5.</span> <span class="nav-text">二、加正则项</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#加入这个项就可以使函数更加平滑"><span class="nav-number">1.6.</span> <span class="nav-text">加入这个项就可以使函数更加平滑</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#那么为啥平滑的函数更好呢？"><span class="nav-number">1.7.</span> <span class="nav-text">那么为啥平滑的函数更好呢？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#现在可以看看上面加上正规化之后的结果"><span class="nav-number">1.8.</span> <span class="nav-text">现在可以看看上面加上正规化之后的结果</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、Drop-out随机选择算法"><span class="nav-number">1.9.</span> <span class="nav-text">三、Drop-out随机选择算法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#对于这个问题，我还是没搞明白。"><span class="nav-number">1.10.</span> <span class="nav-text">对于这个问题，我还是没搞明白。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、批标准化（BN）"><span class="nav-number">1.11.</span> <span class="nav-text">四、批标准化（BN）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、背景意义"><span class="nav-number">1.11.1.</span> <span class="nav-text">一、背景意义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、初识BN-Batch-Normalization"><span class="nav-number">1.11.2.</span> <span class="nav-text">二、初识BN(Batch  Normalization)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、BN概述"><span class="nav-number">1.11.2.1.</span> <span class="nav-text">1、BN概述</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、预处理操作选择"><span class="nav-number">1.11.2.2.</span> <span class="nav-text">2、预处理操作选择</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、BN算法实现"><span class="nav-number">1.11.3.</span> <span class="nav-text">三、BN算法实现</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、BN算法概述"><span class="nav-number">1.11.3.1.</span> <span class="nav-text">1、BN算法概述</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、源码实现"><span class="nav-number">1.11.3.2.</span> <span class="nav-text">2、源码实现</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、实战使用"><span class="nav-number">1.11.3.3.</span> <span class="nav-text">3、实战使用</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、Batch-Normalization在CNN中的使用"><span class="nav-number">1.11.4.</span> <span class="nav-text">四、Batch Normalization在CNN中的使用</span></a></li></ol></li></ol></li></ol>
+    
     </div>
-  </div>
-
-
-  
-</aside>
+  </aside>
+</section>
         
       </div>
       <footer id="footer" class="site-footer">
